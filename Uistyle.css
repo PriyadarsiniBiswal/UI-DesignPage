@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(CSIMAGE.jpg) no-repeat center / cover;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    width: 110%;
+    height: 700px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 8%;
+    margin-left: -690px;
+}
+.right{
+    width: 30%;
+    height: 650px;
+    background-color: rgb(224, 223, 221);
+    display: flex;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: -990px;
+}
+ .box{
+    position: relative;
+    z-index: 0;
+}
+ .box .avtar{
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 0;
+}
+.box .box_content{
+    align-items: center;
+    justify-content: center;
+    margin: 5px  0px;
+
+}
+.box .box_content .title{
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+.box .box_content .post{
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-bottom: 200px;  
+}
+.box .icons{
+    margin-top: 50px;
+    padding: 10px;
+    list-style-type: none;
+    height: 0;
+    width: 250%;
+}
+.box.icons .a{
+    margin: 0 50px;
+    display: flex;
+    height: 10px;
+    width: 20%;
+}
+.box .card{
+    color: white;
+    background-color: #3B2CE3;
+    margin-top: 238px;
+    padding: 0;
+}
+.box .card header {
+    color: goldenrod;
+    height: fit-content;
+}
+.box .card title{
+    font-size: 3px;
+    font-weight: lighter;
+    line-height: 1.5rem;
+}
+.box .card p{
+ font-size: 12px;
+}
+.box .card a{
+    color: blue;
+}
+.box .link a{
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.container1{
+    width: 60%;
+    height: 650px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: -720px;
+}
+.container1 .content-table tr th{
+    height:50px;
+    border-bottom: 1px solid #dddddd;
+}
+.container1 .content-table td{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    width: 210px;
+    text-align: left;
+}
+.container1 .content-table th .Search{
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    color: black;
+    font-weight: lighter;
+}
+.container1 .content-table th .modified{
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+}
+.container1 .content-table tr{
+    height: 50px;
+    width: 400px;  
+}
+.container1 .content-table tr :hover{
+  background-color: #dedeed;
+  font-weight: bold;
+  
+}
+.container1 .icon {
+    color: white;
+    margin-top: 80px;
+}
+
+
+
+
+
